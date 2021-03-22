@@ -1,9 +1,10 @@
 import React from 'react';
+import UrlForm from '../../components/UrlForm'
 
 export default function IndexPage() {
   return (
     <React.Fragment>
-      <h1>Index Page</h1>
+      <UrlForm />
     </React.Fragment>
   )
 }

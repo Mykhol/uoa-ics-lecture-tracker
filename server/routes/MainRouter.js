@@ -5,7 +5,7 @@ const defaultController = require('../controllers/defaultController');
 const router = Router();
 
 
-router.get('/hello', defaultController.helloWorld);
+router.post('/api/test', defaultController.getCalendar);
 
 // To add another router:
 // const inputRouter = require('./anotherRouter');
